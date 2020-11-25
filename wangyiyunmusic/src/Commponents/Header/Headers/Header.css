@@ -1,0 +1,64 @@
+.ftPzZG {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: rgb(212, 68, 57);
+}
+.ftPzZG > span.iconfont {
+    font-size: 25px;
+}
+.ftPzZG > span {
+    line-height: 40px;
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+}
+.iconfont {
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: iconfont !important;
+}
+.icon-delete {
+    font-family: 900 !important;
+    font-size: 14px !important;
+}
+.ftPzZG > span {
+    line-height: 40px;
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+}
+/* 跳转路由 */
+.ekkJku {
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(212, 68, 57);
+}
+.ekkJku a {
+    font-size: 14px;
+    color: rgb(228, 228, 228);
+    flex: 1 1 0%;
+    padding: 2px 0px;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.cwZJmE {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.ekkJku a.selected span {
+    font-weight: 700;
+    color: rgb(241, 241, 241);
+    padding: 3px 0px;
+    border-bottom: 2px solid rgb(241, 241, 241);
+}

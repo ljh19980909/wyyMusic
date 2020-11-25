@@ -1,0 +1,97 @@
+/* 分类 */
+.dUBiHX {
+    box-sizing: border-box;
+    position: fixed;
+    top: 95px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.jiwVax {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.fGbcNn {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.fGbcNn::-webkit-scrollbar {
+    width: 0 !important;
+}
+.fGbcNn > span:first-child {
+    display: block;
+    color: grey;
+    font-size: 14px;
+    vertical-align: middle;
+    flex: 0 0 auto;
+    padding: 5px 0px;
+}
+.cEMLqX {
+    font-size: 14px;
+    flex: 0 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* 展示 */
+.eLXbUt {
+    position: fixed;
+    top: 165px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.jiwVax {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.jiwVax::-webkit-scrollbar {
+    width: 0 !important;
+}
+.fYeUcK {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* overflow: hidden; */
+}
+.kOhXxf {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 5px;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.kOhXxf .img_wrapper {
+    margin-right: 20px;
+}
+.kOhXxf .img_wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+.kOhXxf .name {
+    font-size: 14px;
+    color: rgb(46, 48, 48);
+    font-weight: 500;
+}
+
+.cEMLqX.selected {
+    color: rgb(212, 68, 57);
+    opacity: 0.8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(212, 68, 57);
+}

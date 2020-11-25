@@ -1,0 +1,191 @@
+/* 全局 */
+.iqMlva {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    /* z-index: 100; */
+    transform-origin: right bottom;
+    overflow: hidden;
+    background: rgb(242, 243, 244);
+}
+
+/* 头部导航栏 */
+.iVjffZ {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    line-height: 40px;
+    color: rgb(241, 241, 241);
+    padding: 0px 10px 5px;
+}
+.iVjffZ .back {
+    margin-right: 5px;
+    font-size: 20px;
+    width: 20px;
+}
+.iVjffZ > h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.cewbvU {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-top: 75%;
+    transform-origin: center top;
+    /* z-index: 50; */
+}
+.cewbvU .filter {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 17, 27, 0.3);
+}
+/* 收藏 */
+.khxJci {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    /* z-index: 50; */
+    color: rgb(241, 241, 241);
+    text-align: center;
+    font-size: 0px;
+    line-height: 40px;
+    margin: -55px auto auto;
+    background: rgb(212, 68, 57);
+    border-radius: 20px;
+}
+.khxJci .iconfont {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    vertical-align: 1px;
+}
+.khxJci .text {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.dfQorN {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+.gQujEj {
+    position: absolute;
+    /* z-index: 50; */
+    top: 0px;
+    left: 0px;
+    bottom: 60px;
+    right: 0px;
+}
+/* 下面展示 */
+.dZbZib {
+    position: absolute;
+    /* z-index: 50; */
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.dZbZib > div {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    overflow: visible;
+}
+.jiwVax {
+    width: 100%;
+    height: 100%;
+}
+.glnqob {
+    opacity: 0.98;
+    border-radius: 10px;
+}
+.glnqob .first_line {
+    box-sizing: border-box;
+    margin-left: 10px;
+    position: relative;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.glnqob .first_line .play_all {
+    display: inline-block;
+    line-height: 24px;
+    color: rgb(46, 48, 48);
+}
+.glnqob .first_line .play_all .iconfont {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.glnqob .first_line .play_all > span {
+    vertical-align: top;
+}
+.glnqob .first_line .play_all .sum {
+    font-size: 12px;
+    color: rgb(187, 168, 168);
+}
+.heSMxl > li {
+    display: flex;
+    height: 60px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.heSMxl > li .index {
+    flex-basis: 60px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.heSMxl > li .info {
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1 1 0%;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    overflow: hidden;
+    font-size: 16px;
+}
+.heSMxl > li .info > span:first-child {
+    color: rgb(46, 48, 48);
+}
+.heSMxl > li .info > span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.heSMxl > li .info > span:last-child {
+    font-size: 12px;
+    color: rgb(187, 168, 168);
+}
+.heSMxl > li .info > span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.collect {
+    font-size: 14px !important;
+    font-family: 700;
+}

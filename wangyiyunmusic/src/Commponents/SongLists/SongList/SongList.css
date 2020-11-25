@@ -1,0 +1,327 @@
+/* .Songlist {
+    height: 675px;
+    transform-origin: right bottom;
+} */
+
+/* 头部导航栏 */
+.eemvWW {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(242, 243, 244);
+    transform-origin: right bottom;
+    transform: rotate(90deg);
+}
+.hHHLHY {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    line-height: 40px;
+    color: rgb(241, 241, 241);
+    padding: 0px 10px 5px;
+}
+.hHHLHY .back {
+    margin-right: 5px;
+    font-size: 20px;
+    width: 20px;
+}
+.hHHLHY > h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.jiwVax {
+    width: 100%;
+    height: 100%;
+}
+.frQFbs {
+    background-size: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 275px;
+    position: relative;
+    padding: 5px 20px 50px;
+}
+.frQFbs .background {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    background-position: 0px 0px;
+}
+.frQFbs .background .filter {
+    position: absolute;
+    /* z-index: 10; */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 17, 27, 0.2);
+}
+.frQFbs .img_wrapper {
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+.frQFbs .img_wrapper .decorate {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(110, 110, 110, 0.4), rgba(255, 255, 255, 0));
+}
+.frQFbs .img_wrapper img {
+    width: 120px;
+    height: 120px;
+    border-radius: 3px;
+}
+.frQFbs .img_wrapper .play_count {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(241, 241, 241);
+}
+.frQFbs .img_wrapper .play_count .play {
+    vertical-align: top;
+    font-size: 14px !important;
+}
+.frQFbs .desc_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    flex: 1 1 0%;
+    padding: 0px 10px;
+}
+.frQFbs .desc_wrapper .title {
+    max-height: 70px;
+    text-overflow: ellipsis;
+    color: rgb(241, 241, 241);
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 16px;
+    overflow: hidden;
+}
+.frQFbs .desc_wrapper .person {
+    display: flex;
+}
+.frQFbs .desc_wrapper .person .avatar {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.frQFbs .desc_wrapper .person .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.frQFbs .desc_wrapper .person .name {
+    line-height: 20px;
+    font-size: 14px;
+    color: rgb(187, 168, 168);
+}
+/* 喜好 */
+.beBaYj {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 30px 20px;
+    margin: -100px 0px 0px;
+}
+.beBaYj > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+    font-weight: 500;
+}
+.beBaYj > div .iconfont {
+    font-size: 20px;
+}
+.iconfont {
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: iconfont !important;
+}
+/* 歌曲播放 */
+.iYUxma {
+    opacity: 0.98;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+.iYUxma .first_line {
+    box-sizing: border-box;
+    margin-left: 10px;
+    position: relative;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.iYUxma .first_line .play_all {
+    display: inline-block;
+    line-height: 24px;
+    color: rgb(46, 48, 48);
+}
+.iYUxma .first_line .play_all .iconfont {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.autoplay {
+    color: #000;
+}
+.iYUxma .first_line .play_all > span {
+    vertical-align: top;
+}
+.iYUxma .first_line .play_all .sum {
+    font-size: 12px;
+    color: rgb(187, 168, 168);
+}
+.all {
+    font-size: 18px;
+}
+.iYUxma .first_line .add_list,
+.iYUxma .first_line .isCollected {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 130px;
+    line-height: 34px;
+    color: rgb(241, 241, 241);
+    font-size: 0px;
+    vertical-align: top;
+    background: rgb(212, 68, 57);
+    border-radius: 3px;
+}
+.iYUxma .first_line .add_list .iconfont,
+.iYUxma .first_line .isCollected .iconfont {
+    vertical-align: top;
+    font-size: 10px;
+    margin: 0px 5px 0px 10px;
+}
+.iYUxma .first_line .add_list span,
+.iYUxma .first_line .isCollected span {
+    font-size: 14px;
+    line-height: 34px;
+}
+.dJMRXb > li {
+    display: flex;
+    height: 60px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.dJMRXb > li .index {
+    flex-basis: 60px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.dJMRXb > li .info {
+    font-size: 16px;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1 1 0%;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    overflow: hidden;
+}
+.dJMRXb > li .info > span:first-child {
+    color: rgb(46, 48, 48);
+}
+.dJMRXb > li .info > span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.dJMRXb > li .info > span:last-child {
+    font-size: 12px;
+    color: rgb(187, 168, 168);
+}
+.dJMRXb > li .info > span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 组件切换动画 */
+/* 
+.donghua-enter {
+    transform: rotateZ(90deg);
+}
+.donghua-enter-active {
+    transform: rotateZ(0deg);
+    transition: all 1s;
+}
+.donghua-enter-done {
+    transform: rotateZ(0deg);
+}
+
+.donghua-exit {
+    transform: rotateZ(0deg);
+}
+.donghua-exit-active {
+    transform: rotateZ(90deg);
+    transition: all 1s;
+}
+.donghua-exit-done {
+    transform: rotateZ(90deg);
+} */
+
+.fade-enter {
+    transform: rotate(0deg);
+    left: 0px;
+}
+.fade-enter-active {
+    transform: rotate(50deg);
+    left: 500px;
+    transition: all 0.8s;
+}
+.fade-enter-done {
+    transform: rotate(50deg);
+    left: 500px;
+}
+
+.fade-exit {
+    transform: rotate(50deg);
+    left: 500px;
+}
+.fade-exit-active {
+    transform: rotate(0deg);
+    left: 0px;
+    transition: all 0.8s;
+}
+.fade-exit-done {
+    transform: rotate(0deg);
+    left: 0px;
+}

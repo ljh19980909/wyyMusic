@@ -1,0 +1,103 @@
+.kBTMZG {
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+    width: 100%;
+}
+/* 轮播图 */
+.cxfKDL {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    background: white;
+}
+.swiper-container {
+    width: 98%;
+    position: relative;
+}
+.slider-nav {
+    width: 100%;
+}
+.slider-nav img {
+    border-radius: 3px;
+}
+.cxfKDL .before {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background: rgb(212, 68, 57);
+    /* z-index: 1; */
+}
+/* 下面歌单 */
+.fyuXNY .title {
+    font-weight: 700;
+    padding-left: 6px;
+    font-size: 14px;
+    line-height: 60px;
+}
+.fAWnme {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.jCNzKX {
+    position: relative;
+    width: 32%;
+}
+.jCNzKX .img_wrapper {
+    position: relative;
+    height: 0px;
+    padding-bottom: 100%;
+}
+.jCNzKX .decorate {
+    /* z-index: 1; */
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    background: linear-gradient(rgba(110, 110, 110, 0.4), rgba(255, 255, 255, 0));
+}
+.jCNzKX .img_wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+.jCNzKX .img_wrapper .play_count {
+    /* z-index: 1; */
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(241, 241, 241);
+}
+.jCNzKX .img_wrapper .play_count .play {
+    vertical-align: top;
+    font-size: 14px !important;
+}
+.iconfont {
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: iconfont !important;
+}
+.jCNzKX .desc {
+    margin-top: 2px;
+    height: 50px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.4;
+    color: rgb(46, 48, 48);
+    overflow: hidden;
+    padding: 0px 2px;
+}
